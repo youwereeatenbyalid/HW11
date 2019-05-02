@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
 project(hw11)
+set(CMAKE_BUILD_TYPE Debug)
+add_executable(hw11 main.cpp algorithms.cpp)
 
-add_executable(hw11 main.cpp)
-
-install(TARGETS hw11 RUNTIME DESTINATION bin)
